@@ -14,7 +14,7 @@ The model is trained on classical built-in seaborn dataset.
 * **Modeling & Tuning:** Used a Voting Classifier that combined both "Gradient Boosting Classifier", and "Random Forest Classifier", then used GridSearchCV to find the optimal hyperparameters.
 
 ## Results
-* The final tuned ensemble model achieved an accuracy of 85.47% on the unseen test set.
+* The final tuned ensemble model achieved an accuracy of 86.04% on the unseen test set.
 * Feature importance analysis revealed that gender, passenger class, and fare were the most significant predictors of survival.
 
 ## Technologies Used
